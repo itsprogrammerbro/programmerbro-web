@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./gtag.component.scss']
 })
 export class GtagComponent {
-
+    
 }
