@@ -7,16 +7,11 @@ import * as $ from "jquery";
 })
 export class HeaderComponent {
   burgerClick(){
-    $(document).on("ready",function() {
-
-      // Check for click events on the navbar burger icon
-      $(".navbar-burger").on("click",function() {
-    
-          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-          $(".navbar-burger").toggleClass("is-active");
-          $(".navbar-menu").toggleClass("is-active");
-    
-      });
+    // Check for click events on the navbar burger icon
+    $(".navbar-burger").on("click",function() {
+      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+      $(".navbar-burger").toggleClass("is-active");
+      $(".navbar-menu").toggleClass("is-active");
     });
   }
   
