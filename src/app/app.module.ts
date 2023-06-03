@@ -6,7 +6,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { GtagComponent } from './gtag/gtag.component';
 import { HomeComponent } from './home/home.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { ContactComponent } from './contact/contact.component';
@@ -18,7 +17,6 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    GtagComponent,
     HomeComponent,
     ContactFormComponent,
     ContactComponent,
